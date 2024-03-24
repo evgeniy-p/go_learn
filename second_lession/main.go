@@ -1,8 +1,8 @@
 package main
 
 import (
+	my_funcs "/app/go_learn/second_lession/funcs/first_func.go"
 	"fmt"
-	my_funcs "github.com/evgeniy-p/go_learn/funcs"
 )
 
 func main() {
