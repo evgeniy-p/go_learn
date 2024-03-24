@@ -1,11 +1,11 @@
 package main
 
 import (
-	my_funcs "/app/go_learn/second_lession/funcs/first_func.go"
 	"fmt"
+	myfuncs "github.com/evgeniy-p/go_learn/funcs"
 )
 
 func main() {
-	my_funcs.FirstFunc("what a bad day \n")
+	myfuncs.FirstFunc("what a bad day \n")
 	fmt.Printf("test")
 }
