@@ -74,7 +74,7 @@ func TestEND(t *testing.T) {
 		os.Stdout = sout
 		return
 	}
-	cmd := exec.Command(os.Args[0], "-test.run=TestEND")
+	cmd := exec.Command(os.Args[0], "-logic.run=TestEND")
 	cmd.Env = append(os.Environ(), "BE_CRASHER=1")
 	newerr := cmd.Run()
 	if e, ok := newerr.(*exec.ExitError); ok && !e.Success() {
