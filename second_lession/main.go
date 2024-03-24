@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	my_funcs "github.com/evgeniy-p/go_learn/second_lession/funcs"
+	my_funcs "github.com/evgeniy-p/go_learn/funcs"
 )
 
 func main() {
