@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-	first
+	first_func_1()
 	fmt.Printf("test")
 }
